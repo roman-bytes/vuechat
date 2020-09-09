@@ -33,9 +33,6 @@ export default {
       await chatkit.subscribeToRoom(activeRoom.id);
 
       commit("setReconnect", false);
-
-      // Test state.user
-      console.log(state.user);
       return true;
     } catch (error) {
       handleError(commit, error);
