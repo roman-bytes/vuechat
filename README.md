@@ -1,5 +1,9 @@
 # vue-chatkit
 
+Pushkit has been depreciated from pusher. Therefore this app currently does not work.
+
+TODO: Refactor to use new pusher setup.
+
 ## Project setup
 ```
 yarn install
